@@ -186,6 +186,16 @@
             "title": "Violating transaction rules for the 'CommitTransaction' method",
             "$id": "#/definitions/CommitTransactionOutsideTryCatch"
         },
+        "CommonMistake": {
+            "description": "Common mistake",
+            "default": true,
+            "type": [
+                "boolean",
+                "object"
+            ],
+            "title": "Common mistake",
+            "$id": "#/definitions/CommonMistake"
+        },
         "CommonModuleAssign": {
             "description": "CommonModuleAssign",
             "default": true,
@@ -837,7 +847,7 @@
                 },
                 "listOfIncorrectFirstSymbol": {
                     "description": "Vertical bar-separated characters that should not start the line (special characters must be escaped)",
-                    "default": "\\)|;|,|\\);",
+                    "default": "\\)|;|,\\s*\\S+|\\);",
                     "type": "string",
                     "title": "Vertical bar-separated characters that should not start the line (special characters must be escaped)"
                 }
