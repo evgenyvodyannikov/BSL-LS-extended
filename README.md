@@ -14,18 +14,10 @@
 
 Реализация протокола [language server protocol](https://microsoft.github.io/language-server-protocol/) для языка 1C (BSL) - языка 1С:Предприятие 8 и [OneScript](http://oscript.io).
 
-Сайт проекта - https://1c-syntax.github.io/bsl-language-server
-
-Сайт проекта (develop) - https://1c-syntax.github.io/bsl-language-server/dev
-
 Исходники документации - [GitHub](docs/index.md)
 
 ---
 
 [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) implementation for 1C (BSL) - 1C:Enterprise 8 and [OneScript](http://oscript.io) languages.
-
-Project site - https://1c-syntax.github.io/bsl-language-server/en
-
-Project site (develop) - https://1c-syntax.github.io/bsl-language-server/dev/en
 
 Documentation sources - [GitHub](docs/en/index.md)
